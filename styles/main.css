@@ -1,0 +1,152 @@
+/* CURRENTLY IN: styles/main.css */
+
+body {
+	border: 5px solid #eee;
+	
+	background-color: #444;
+	color: gray;
+
+	margin: 25px;
+/*	padding: 35px;
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 40px;
+	padding-right: 40px;
+
+	padding: 50px 40px;*/
+
+	padding: 50px 40px 50px 50px;
+}
+
+/* styles for .nav block */
+p { 
+	font-family: "Georgia";
+	font-size: 16px;
+	color: white;
+	line-height: 150%;
+}
+ul { 
+	list-style: square;
+	line-height: 150%;
+}
+li {
+	padding-top: 20px;
+}
+
+
+.nav { /* this is a  block */
+	padding: 30px 0;
+	border-bottom: 2px solid #eee;
+	text-align: center;
+	font-family: "arial";
+}
+
+.nav--bottomborder {
+	border-bottom: none;
+	border-top: 2px solid #eee;
+	padding: 30px 0;
+	margin-top: 50px;
+}
+
+.nav__link { /* this is an element of the nav block */
+	font-size: 20px;
+	font-weight: 600;
+	color: rgb(50,255,150);
+	padding: 0 20px;
+	border-right: 1px solid #eee;
+	display: inline-block;
+    line-height: 15px;
+}
+
+.nav__link--last {
+	border-right: none;
+}
+
+.nav__link--active {
+	color: white;
+	text-decoration: none;
+	font-weight: 800;
+	pointer-events: none;
+}
+
+/* styles for .content-bookend */
+
+.content-bookend {
+	padding-top: 20px;
+}
+
+.content-bookend__title {
+	color: white;
+	font-size: 56px;
+	font-style: italic;
+	text-align: center;
+	margin: 0;
+}
+
+.section_header-1 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 30px;
+	color: white;
+}
+	
+.section_header-2 {
+	font-family: arial;
+	font-weight: bold;
+	font-size: 18px;
+	color: #B3B3B3;
+	text-transform: uppercase;
+	padding-top: 20px;
+
+}
+
+
+.li_content-description {
+	display: block;
+	font-family: "Georgia";
+	font-weight: normal;
+	color: #B3B3B3;
+	font-size: 16px;
+}
+.li_item-1 {
+	font-family: "arial";
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+
+}
+
+.li_item-2 {
+	font-family: "arial";
+	color: white;
+	font-size: 16px;
+	font-weight: normal;
+
+}
+.li_item-3 {
+	font-family: "arial";
+	color: gray;
+	font-size: 14px;
+	font-weight: normal;
+
+
+}
+
+.li_item--education {
+	font-family: "arial";
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 0px;
+}
+
+.img-TextWrapLeft {
+	float: right;
+	margin: 20px;
+	outline: 2px solid gray;
+	padding: 5px;
+	margin-top: 100px;
+
+}
+
